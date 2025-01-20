@@ -6,7 +6,7 @@
 $ python monitor_rate_limits.py --token <gh_token> -o my_capture
 ```
 
-- Token must have "user" scope to query the `/rate_limit` endpoint
+- Token (classic) must have "user" scope to query the `/rate_limit` endpoint
 - Polling occurs every second
 
 ## Ploting usage
